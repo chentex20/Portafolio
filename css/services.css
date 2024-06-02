@@ -1,0 +1,86 @@
+.services{
+    background-color: rgb(0, 0, 0);
+    margin: 0 auto;
+    color: #ffffff;
+    height:  100%;
+    min-height:100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    display: grid;
+    padding: 30px;
+    
+}
+
+.services-info span {
+    color: rgba(0,178,255,1);
+}
+
+.diseño-web, .plataforma-streaming, .tienda-online, .landing-page{
+    background-color: #202020;
+    border-radius: 2rem;
+    min-height:30vh;
+
+}
+.services .types{
+    text-align: center;
+    align-items: center;
+    gap: 1rem;
+    display: grid;  
+}
+.services .services-info p{
+    text-align: justify;
+}
+.services  h3{
+    padding: 8px;
+    margin: 40px;
+}
+.services .types p{
+    text-align: justify ;
+    font-size:medium;
+    color: rgb(179, 179, 179);
+    padding: 10px;
+}
+
+
+   
+.diseño-web:hover, .plataforma-streaming:hover, .tienda-online:hover, .landing-page:hover {
+    box-shadow:
+		0 0 0px rgba(0,178,255,1),
+		0 0 1px rgba(0,178,255,1),
+		0 0 2px rgba(0,178,255,1),
+		0 0 4px rgba(38,104,127,1),
+		0 0 8px rgba(38,104,127,1),
+		0 0 9px rgba(38,104,127,1),
+		0 0 10px rgba(38,104,127,1),
+		0 0 9px rgba(38,104,127,1),
+		0 0 8px rgba(38,104,127,1);
+}
+
+
+ 
+/* Screen larger than 600px? 2 column */
+@media (min-width: 600px) {
+    .types { grid-template-columns: repeat(2, 1fr); }
+}
+  
+  /* Screen larger than 900px? 3 columns */
+@media (min-width: 900px) {
+    .types { grid-template-columns: repeat(4, 1fr); }
+    
+}
+
+  
+@media (max-width: 500px) {
+    .services-title{
+        font-size: 2em
+    }
+   .services p{
+        font-size:14px;
+    }
+}
+@media (max-width:901px) {
+    .services {
+        min-height:10vh;
+    }
+}

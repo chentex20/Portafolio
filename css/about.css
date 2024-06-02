@@ -1,0 +1,60 @@
+.about{
+    background-color: #252A2E;
+    margin: 0 auto;
+    color: #ffffff;
+    height:  100%;
+    min-height:100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    display: grid;
+    padding: 30px;
+    align-items: center;
+}
+p{
+    max-width: 80%;
+    font-size: 1.5em;
+    font-family: 'Bruno Ace SC', sans-serif;
+    
+    margin: auto;
+}
+.about-img{
+    text-align: center;
+}
+.about-img img{
+   
+    height: 90%;
+    max-width: 90%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 7px solid rgba(0,178,255,1);
+    box-shadow: 0 0 20px rgba(0,178,255,1);
+    text-align: center;
+}
+.about-me h1{
+    font-family: 'Bruno Ace SC', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+h2,h3{
+    text-align: center;
+}
+.about-me p{
+    text-align: justify;
+
+}
+
+.about-me span {
+    color: rgba(0,178,255,1);
+}
+
+@media (min-width: 600px) {
+    .about { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  @media (max-width: 500px) {
+    .about-me p{
+        font-size:17px;
+    }
+  }

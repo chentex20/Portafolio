@@ -1,0 +1,165 @@
+.skills{
+    background-color: rgb(0, 0, 0);
+    margin: 0 auto;
+    color: #ffffff;
+    height:  100%;
+    min-height:100vh;
+}
+
+.title-skill{
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+.title-skill span {
+    color: rgba(0,178,255,1);
+    
+}
+.skills{
+    background-color: #252A2E;
+    color: #fff;
+    padding: 50px 20px;
+    font-family: 'Bruno Ace SC', sans-serif;
+}
+.skills .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.col h2{
+    text-align: justify;
+}
+.skills .fila{
+    display: flex;
+    flex-wrap:nowrap;    
+}
+.skills .fila .col{
+    width: 50%;
+    padding: 0 20px;
+}
+.skills .fila .col h2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+.skills .skill > span{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+.skills .skill .barra-skill{
+    height: 8px;
+    width: 80%;
+    background-color: #131517;
+    position: relative;
+    margin-bottom: 30px;
+}
+.skills .skill .progreso{
+    background-color: rgba(0,178,255,1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+}
+.skills .skill .barra-skill span{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(0,178,255,1);
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+    top: -17px;
+    right: -15px;
+    font-size: 14px;
+}
+/* Estas clases se agregaran dinamicamente mediante javascript */
+
+.skills .skill .Html5{
+    width: 0%;
+    animation: 2s html5 forwards;
+}
+@keyframes html5 {
+    0%{width: 0%;}
+    100%{width: 90%;}
+}
+
+.skills .skill .Css{
+    width: 0%;
+    animation: 2s Css forwards;
+}
+@keyframes Css {
+    0%{width: 0%;}
+    100%{width: 75%;}
+}
+
+.skills .skill .Javascript{
+    width: 0%;
+    animation: 2s Javascript forwards;
+}
+@keyframes Javascript {
+    0%{width: 0%;}
+    100%{width: 50%;}
+}
+.skills .skill .React{
+    width: 0%;
+    animation: 2s React forwards;
+}
+@keyframes React {
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+
+.skills .skill .comunicacion{
+    width: 0%;
+    animation: 2s comunicacion forwards;
+}
+@keyframes comunicacion {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+.skills .skill .trabajo{
+    width: 0%;
+    animation: 2s trabajo forwards;
+}
+@keyframes trabajo {
+    0%{width: 0%;}
+    100%{width: 75%;}
+}
+
+.skills .skill .creatividad{
+    width: 0%;
+    animation: 2s creatividad forwards;
+}
+@keyframes creatividad {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+.skills .skill .dedicacion{
+    width: 0%;
+    animation: 2s dedicacion forwards;
+}
+@keyframes dedicacion {
+    0%{width: 0%;}
+    100%{width: 65%;}
+}
+
+
+@media screen and (max-width:700px){
+    
+
+    .skills .fila{
+        display: block;
+    }
+    .skills .fila .col{
+        width: 100%;
+    }
+    .skills .fila .col .barra-skill{
+        width: 100%;
+    }   
+}
+@media (max-width:900px) {
+    .skills {
+        min-height:50vh;
+    }
+}

@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+
+}
+
+
+.fa-solid, .fas {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+}
+.fa, .fa-brands, .fa-duotone, .fa-light, .fa-regular, .fa-solid, .fa-thin, .fab, .fad, .fal, .far, .fas, .fat {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: var(--fa-display, inline-block);
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+}
+
+h2{
+    font-family: 'Bruno Ace SC', sans-serif;
+}
+
+h3{
+    font-size: 3em;
+    font-family: 'Bruno Ace SC', sans-serif;
+}
+
+h4{
+    font-size: 1.5em;
+    font-family: 'Bruno Ace SC', sans-serif;
+}
+
+/* Estilo para el número de progreso */
+#progress {
+    font-family: 'Bruno Ace SC', sans-serif; /* Tipo de letra */
+    font-size:20px; /* Tamaño de fuente */
+    color: rgba(0,178,255,1); /* Color del texto */
+  }
+  
+/* Estilo para la barra de desplazamiento */
+::-webkit-scrollbar {
+    width: 10px; /* Ancho de la barra de desplazamiento */
+  }
+  
+  /* Estilo para el área desplazable de la barra de desplazamiento */
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(0,178,255,1); /* Color de la barra de desplazamiento */
+    border-radius: 5px; /* Esquinas redondeadas */}
